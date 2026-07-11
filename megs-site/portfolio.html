@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | MEGS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .portfolio-card { transition: all 0.3s ease; }
+        .portfolio-card:hover { transform: translateY(-6px); }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+
+    <!-- Navbar -->
+    <nav class="border-b border-zinc-800 bg-zinc-950 sticky top-0 z-50">
+        <div class="max-w-screen-2xl mx-auto px-8 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-x-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-2xl flex items-center justify-center">
+                    <span class="text-white font-bold">M</span>
+                </div>
+                <span class="font-semibold text-2xl tracking-tighter">MEGS</span>
+            </div>
+            <div class="flex items-center gap-x-8 text-sm">
+                <a href="index.html" class="hover:text-white">Home</a>
+                <a href="#exteriors" class="hover:text-white">Exteriors</a>
+                <a href="#interiors" class="hover:text-white">Interiors</a>
+                <a href="#staging" class="hover:text-white">Virtual Staging</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="max-w-screen-2xl mx-auto px-8 pt-12 pb-8">
+        <h1 class="text-4xl font-semibold tracking-tight">Portfolio</h1>
+        <p class="text-zinc-400 mt-2">Selected architectural visualization and 3D rendering projects.</p>
+    </section>
+
+    <!-- Exteriors -->
+    <section id="exteriors" class="max-w-screen-2xl mx-auto px-8 py-10">
+        <h2 class="text-2xl font-semibold mb-6">Exteriors</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="portfolio-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden">
+                <img src="images/villa.jpg" class="w-full">
+                <div class="p-5">
+                    <h3 class="font-semibold">Luxury Villa</h3>
+                    <p class="text-sm text-zinc-400">OMR, Chennai</p>
+                </div>
+            </div>
+            <div class="portfolio-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden">
+                <img src="images/exterior2.jpg" class="w-full">
+                <div class="p-5">
+                    <h3 class="font-semibold">Modern Residence</h3>
+                    <p class="text-sm text-zinc-400">ECR, Chennai</p>
+                </div>
+            </div>
+            <div class="portfolio-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden">
+                <img src="images/exterior3.jpg" class="w-full">
+                <div class="p-5">
+                    <h3 class="font-semibold">Weekend Home</h3>
+                    <p class="text-sm text-zinc-400">Near Bangalore</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interiors -->
+    <section id="interiors" class="max-w-screen-2xl mx-auto px-8 py-10 border-t border-zinc-800">
+        <h2 class="text-2xl font-semibold mb-6">Interiors</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="portfolio-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden">
+                <img src="images/apartment.jpg" class="w-full">
+                <div class="p-5">
+                    <h3 class="font-semibold">3BHK Apartment</h3>
+                    <p class="text-sm text-zinc-400">Medavakkam, Chennai</p>
+                </div>
+            </div>
+            <div class="portfolio-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden">
+                <img src="images/interior2.jpg" class="w-full">
+                <div class="p-5">
+                    <h3 class="font-semibold">Luxury Penthouse</h3>
+                    <p class="text-sm text-zinc-400">Anna Nagar, Chennai</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Staging -->
+    <section id="staging" class="max-w-screen-2xl mx-auto px-8 py-10 border-t border-zinc-800">
+        <h2 class="text-2xl font-semibold mb-6">Virtual Staging</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="portfolio-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden">
+                <img src="images/staging.jpg" class="w-full">
+                <div class="p-5">
+                    <h3 class="font-semibold">Empty Living Room</h3>
+                    <p class="text-sm text-zinc-400">Anna Nagar, Chennai</p>
+                </div>
+            </div>
+            <div class="portfolio-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden">
+                <img src="images/staging2.jpg" class="w-full">
+                <div class="p-5">
+                    <h3 class="font-semibold">3BHK Staging</h3>
+                    <p class="text-sm text-zinc-400">OMR, Chennai</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="max-w-screen-2xl mx-auto px-8 py-12 text-center border-t border-zinc-800">
+        <p class="text-zinc-400">More projects available on request.</p>
+        <a href="index.html#contact" class="inline-block mt-4 px-6 py-3 bg-white text-zinc-950 rounded-3xl text-sm font-medium">Request Full Portfolio</a>
+    </div>
+
+</body>
+</html>
