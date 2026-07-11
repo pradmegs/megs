@@ -9,14 +9,31 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "index.html"
-        label: "Homepage"
+      - label: "Homepage"
         name: "home"
+        file: "index.html"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - label: "Hero Title"
+            name: "hero_title"
+            widget: "string"
+            default: "For All Your Visualizations"
 
-      - file: "portfolio.html"
-        label: "Portfolio Page"
+          - label: "Hero Description"
+            name: "hero_description"
+            widget: "text"
+
+          - label: "About Section"
+            name: "about_text"
+            widget: "markdown"
+
+          - label: "Pricing & Process"
+            name: "pricing_text"
+            widget: "markdown"
+
+      - label: "Portfolio Page"
         name: "portfolio"
+        file: "portfolio.html"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - label: "Page Title"
+            name: "page_title"
+            widget: "string"
