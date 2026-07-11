@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://megsindia.netlify.app/sitemap.xml
