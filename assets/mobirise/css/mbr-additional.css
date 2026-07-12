@@ -1014,7 +1014,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tJS6tZXiPa .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 4rem);
+    max-height: calc(98.5vh - 4.3rem);
   }
 }
 .cid-tJS6tZXiPa .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1345,7 +1345,7 @@ a {
 }
 .cid-tJS6uM4N87 {
   padding-top: 12rem;
-  padding-bottom: 2rem;
+  padding-bottom: 6rem;
   background-color: #080808;
 }
 .cid-tJS6uM4N87 .mbr-fallback-image.disabled {
@@ -1478,7 +1478,7 @@ a {
   color: #232323;
 }
 .cid-tMlDYtQ5fF {
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #000000;
 }
